@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 20vh;
+    margin-left: 40vw;
+    width: 40rem;
+    height: 55rem;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+    height: 5rem;
+}
+
+.header-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    height: 5rem;
+    width: 3rem;
+}
+
+
+.header-left {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 5rem;
+    width: 30rem;
+
+}
+
+.header-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    height: 5rem;
+    width: 7rem;
+}
+
+.ellipsis {
+    height: 2rem;
+    width: 2rem;
+}
+
+.logo-html {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+
+.post {
+    height: 30rem;
+    width: 40rem;
+}
+
+.post img {
+    height: 35rem;
+    width: 40rem;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20rem;
+    width: 40rem;
+}
+
+.footer-icons {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 5rem;
+    width: 40rem;
+}
+
+.footer-icons-left {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 30rem;
+}
+
+.footer-icons-left img {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.footer-icons-right  {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    width: 10rem;
+}
+
+.footer-icons-right img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.footer-likes {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 5rem;
+    width: 40rem;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+.footer-description {
+    height: 10rem;
+    width: 40rem;
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+
+
+
+
+/* .content {
+    justify-content: center;
+    margin-top: 35vh;
+    margin-left: 35vw;
+}
+
+.content h1{
+    text-align: center;
+    width: 30vw;
+    height: auto;
+} */
